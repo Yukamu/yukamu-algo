@@ -1,1 +1,9 @@
 tanago3/node_modules/
+
+*.dll
+*.suo
+hidari/packages/
+hidari/YukamuAlgo/obj/
+hidari/YukamuAlgo/bin/
+hidari/YukamuAlgoTest/obj/
+hidari/YukamuAlgoTest/bin/
