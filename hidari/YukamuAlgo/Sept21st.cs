@@ -10,6 +10,7 @@ namespace YukamuAlgo
 	{
 		static void Main(string[] args)
 		{
+			Practice1_6(7);
 		}
 
 		public static int Max4(int a, int b, int c, int d)
@@ -110,5 +111,16 @@ namespace YukamuAlgo
 			return max;
 		}
 
+		public static void Practice1_6(int n)
+		{
+			var i = 1;
+
+			while (i <= n)
+			{
+				Console.WriteLine(i.ToString());
+				i++;
+			}
+			Console.WriteLine(i.ToString());
+		}
 	}
 }
