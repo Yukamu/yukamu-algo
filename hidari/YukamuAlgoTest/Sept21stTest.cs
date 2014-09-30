@@ -76,7 +76,7 @@ namespace YukamuAlgoTest
 		}
 	}
 
-	[TestFixture]
+	[TestFixture(Description="while文の終了時点における変数iの値が n+1 となることを確認せよ。（表示するプログラムを作成する）")]
 	public class 演習１_6
 	{
 		[Test]
@@ -86,7 +86,7 @@ namespace YukamuAlgoTest
 		}
 	}
 
-	[TestFixture]
+	[TestFixture(Description="1から7まで足したものを表示しなさい。（n=7）1 + 2 + ・・・  + 7 = 28")]
 	public class 演習1_7
 	{
 		[Test]
@@ -94,6 +94,16 @@ namespace YukamuAlgoTest
 		{
 			Sept21st.Practice1_7(7);
 			Sept21st.Practice1_7(10);
+		}
+	}
+
+	[TestFixture]
+	public class 演習1_8
+	{
+		[Test]
+		public void Test()
+		{
+			Assert.Fail();
 		}
 	}
 }
