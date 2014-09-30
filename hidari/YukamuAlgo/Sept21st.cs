@@ -10,7 +10,7 @@ namespace YukamuAlgo
 	{
 		static void Main(string[] args)
 		{
-			Practice1_6(7);
+			Practice1_7(100);
 		}
 
 		public static int Max4(int a, int b, int c, int d)
@@ -121,6 +121,25 @@ namespace YukamuAlgo
 				i++;
 			}
 			Console.WriteLine(i.ToString());
+		}
+
+		public static void Practice1_7(int n)
+		{
+			var i = 1;
+			var sum = 0;
+			while (i <= n)
+			{
+				Console.Write(i.ToString());
+				sum = sum + i;
+				if (i < n)
+				{
+					Console.Write("+");
+				}
+
+				i++;
+			}
+
+			Console.WriteLine("="+ sum.ToString() + "\r\n");
 		}
 	}
 }

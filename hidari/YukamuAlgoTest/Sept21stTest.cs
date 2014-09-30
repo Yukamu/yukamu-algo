@@ -75,4 +75,25 @@ namespace YukamuAlgoTest
 			Sept21st.Med3(3, 3, 3).Is(3);
 		}
 	}
+
+	[TestFixture]
+	public class 演習１_6
+	{
+		[Test]
+		public void _WhenWhileStatementNplusOneOut()
+		{
+			Sept21st.Practice1_6(7);
+		}
+	}
+
+	[TestFixture]
+	public class 演習1_7
+	{
+		[Test]
+		public void SumFrom1ToN()
+		{
+			Sept21st.Practice1_7(7);
+			Sept21st.Practice1_7(10);
+		}
+	}
 }
