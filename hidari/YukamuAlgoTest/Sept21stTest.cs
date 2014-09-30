@@ -97,13 +97,14 @@ namespace YukamuAlgoTest
 		}
 	}
 
-	[TestFixture]
+	[TestFixture(Description="ガウスの方法で和を求めるプログラムを作成しなさい。")]
 	public class 演習1_8
 	{
 		[Test]
-		public void Test()
+		public void SumWithGaussMethod()
 		{
-			Assert.Fail();
+			Sept21st.Practice1_8(10).Is(55);
+			Sept21st.Practice1_8(100).Is(5050);
 		}
 	}
 }

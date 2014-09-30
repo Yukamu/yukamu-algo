@@ -142,10 +142,9 @@ namespace YukamuAlgo
 			Console.WriteLine("="+ sum.ToString() + "\r\n");
 		}
 
-		public static void Practice1_8()
+		public static int Practice1_8(int n)
 		{
-			// ガウスの方法で和を求めるプログラムを作成しなさい。
-			throw new NotImplementedException();
+			return n * (n + 1) / 2;
 		}
 	}
 }
