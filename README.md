@@ -63,3 +63,11 @@ while文の終了時点における変数iの値が n+1 となることを確認
 ------
 
 ガウスの方法で和を求めるプログラムを作成しなさい。
+
+
+参考
+===========================
+
+* [visualgo](http://visualgo.net/)
+* [Ideone.com - Online Compiler and IDE >> C/C++, Java, PHP, Python, Perl and 40+ other compilers and interpreters](http://ideone.com/)
+* [インド式２桁×２桁の掛け算](http://math.hoge2.info/kakezan/pr01.html)
